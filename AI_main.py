@@ -17,9 +17,9 @@ class Interface:
         fileMenu1.add_command(label="Hard",command=lambda : self.ai_level(10,"Hard"))
 
         fileMenu2 = Menu(menubar, tearoff=0)
-        fileMenu2.add_command(label="63020955 นายจักรวาล ภูเลื่อมใส")
-        fileMenu2.add_command(label="63021417 นายวรเมธ สยาม")
-        fileMenu2.add_command(label="63022867 นางสาวพัชรวรินทร์ จินกลาง")
+        fileMenu2.add_command(label="6302XXXX นายจักรวาล ภูเลื่อมใส")
+        fileMenu2.add_command(label="6302XXXX นายวรเมธ สยาม")
+        fileMenu2.add_command(label="6302XXXX นางสาวพัชรวรินทร์ จินกลาง")
 
         menubar.add_cascade(label="Level", menu=fileMenu1)
         menubar.add_cascade(label="Member", menu=fileMenu2)
